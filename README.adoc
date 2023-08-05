@@ -1,4 +1,18 @@
-= Antora Default UI
+= Juice Shop's Antora UI project 
+
+== Setup:
+Clone the project and follow the prerequisites[https://docs.antora.org/antora-ui-default/prerequisites/] for this project.
+After fulfilling the prerequisites, run the following command to preview the UI.
+
+ $ gulp preview
+
+To bundle the UI in order to preview the UI on the real site in local development, run the following command:
+
+ $ gulp bundle
+
+The UI bundle will be available at build/ui-bundle.zip. You can then point Antora at this bundle using the --ui-bundle-url command-line option
+
+----------------------------------------------------------------------------------
 // Settings:
 :experimental:
 :hide-uri-scheme:
