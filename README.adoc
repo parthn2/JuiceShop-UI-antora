@@ -8,7 +8,7 @@ After fulfilling the prerequisites, run the following command to preview the UI.
 
 To bundle the UI in order to preview the UI on the real site in local development, run the following command:
 
- $ gulp bundle
+ $ gulp bundle:pack
 
 The UI bundle will be available at build/ui-bundle.zip. You can then point Antora at this bundle using the --ui-bundle-url command-line option
 
