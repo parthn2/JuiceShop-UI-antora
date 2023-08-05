@@ -12,7 +12,7 @@ To bundle the UI in order to preview the UI on the real site in local developmen
 
 The UI bundle will be available at build/ui-bundle.zip. You can then point Antora at this bundle using the --ui-bundle-url command-line option
 
-----------------------------------------------------------------------------------
+\----------------------------------------------------------------------------------
 
 // Settings:
 :experimental:
